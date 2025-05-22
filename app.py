@@ -19,11 +19,11 @@ with col1:
     number_of_people = st.number_input("Number of People", min_value=1, step=1)
     workload = st.number_input("Workload", min_value=0, step=1)
     project_scope = st.number_input("Project Scope", min_value=0, step=1)
-    risk = st.number_input("Risk", min_value=0, step=1)
+    risk = st.number_input("Risk (number 1 - 7)", min_value=0, max_value=7, step=1) #Rủi ro cao nhất là 7
 
 with col2:
     end_date = st.date_input("End Date", value=datetime.today())
-    topic = st.number_input("Topic (as number)", min_value=0, step=1)
+    topic = st.number_input("Topic (as number 1 - 7)", min_value=0, max_value=7, step=1)
     team_exp = st.number_input("Team Experience", min_value=0, step=1)
     manage_exp = st.number_input("Management Experience", min_value=0, step=1)
 
