@@ -26,6 +26,11 @@ Chạy ứng dụng bằng streamlit
   streamlit run app.py
 ```
 ## Demo
+
+https://effortpredictai.streamlit.app/
+
+### Preview
+
 App
 ![Image](https://github.com/user-attachments/assets/b79eb66e-7389-4df4-aedb-080e3c0e36a9)
 
